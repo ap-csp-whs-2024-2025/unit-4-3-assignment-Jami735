@@ -33,14 +33,30 @@ int main()
       std::cout << "You rolled a " << random_number << std::endl;
     }
     else
-    {
+  
       if (user_input == 1)
       {
         std::cout << "Enter two numbers\n";
         std::cin >> num1 >> num2;
         std::cout << "Their sum is " << (num1 + num2) << std::endl;
       }
+    
+    else 
+    
+      if (user_input == 2)
+     { 
+      std::cout << "enter two numbers\n";
+      std::cin>> num1 >> num 2; 
+      std:cout << "Their sum is " << (num1 + num2) << std:: endl;
+     }
+   else
+   {
+    if (user_input == 3)
+    {
+std::cout << "enter two numbers\n";
+std::cin>> num1 >> num 2;
+
     }
-  }
+   }
   return 0;
 }
